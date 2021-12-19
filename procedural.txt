@@ -1,0 +1,29 @@
+****
+PROCEDURE dot_product(ps:array)
+var
+v1,v2:array;
+i,j,n: integer;
+for i from 1 to n do
+for j from 1 to n do
+ps:= v1[i]*v2[j];
+end for 
+endfor
+END
+****
+ALGORITHME produit_scalaire
+egin
+if (PROCEDURE dot_product==0) then
+write(' two victors are orthogonal');
+end if
+End
+****
+FUNCTION dot_product(ps:array):integer
+var
+v1,v2:array;
+i,j,n: integer;
+for i from 1 to n do
+for j from 1 to n do
+ps:= v1[i]*v2[j];
+end for 
+endfor
+END
